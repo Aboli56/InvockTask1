@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .getData {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 440px;
+      border-radius: 23px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+  
+  .getData input{
+    width: 280px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .getData img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .homePage {
+    align-items: center;
+    appearance: none;
+    background-color: #000000;
+    border-radius: 8px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    width: 88px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: transform .15s;
+    user-select: none;
+    font-size: 18px;
+  }
+
+  .homePage:hover {
+   background-color: #361111;
+  }
+  
+  .homePage:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  .getData h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .getData p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .getData a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .getData a:hover {
+    color: #555;
+  }
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .nav h1 {
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .getData {
+      margin-top: 50px;
+      width: 70%;
+      height: 70%;
+    }
+    .getData input{
+      width: 180px;
+      height: 20px;
+    }
+    .getData img {
+      width: 100px;
+      height: 110px;
+      
+    }
+    .getData h1 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .getData p {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+    
+  }

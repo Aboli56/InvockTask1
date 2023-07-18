@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1rem;
+  }
+  .nav h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
